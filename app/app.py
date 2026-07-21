@@ -20,7 +20,7 @@ anxiety = st.sidebar.slider("Anxiety Score (0-27 Scale)", 0, 27, 12)
 @st.cache_resource
 def load_and_train_model():
     # Replace with your actual GitHub username
-    DATA_URL = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/edtech-digital-wellbeing-ml/main/social_media_screentime_mental_health_2026.csv"
+    DATA_URL = "https://raw.githubusercontent.com/NawafChukkan/edtech-digital-wellbeing-ml/main/social_media_screentime_mental_health_2026.csv"
     
     try:
         df = pd.read_csv(DATA_URL)
