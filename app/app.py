@@ -65,3 +65,4 @@ else:
 st.markdown("### Model Confidence Metrics")
 prob_df = pd.DataFrame({'Category': model.classes_, 'Probability': [f"{p*100:.1f}%" for p in probs]})
 st.table(prob_df)
+
